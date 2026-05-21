@@ -1,0 +1,23 @@
+body { background: black; color: white; margin: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; font-family: 'Playfair Display', serif; }
+
+/* Inicio */
+#pantalla-inicio { text-align: center; z-index: 10; }
+.titulo { font-size: 5rem; letter-spacing: 5px; margin: 0; }
+.subtitulo { font-size: 1.5rem; color: #888; margin-bottom: 30px; }
+.btn-moderno { padding: 15px 40px; font-size: 1.2rem; background: transparent; color: white; border: 2px solid white; cursor: pointer; transition: 0.3s; text-transform: uppercase; }
+.btn-moderno:hover { background: white; color: black; }
+
+/* Letras y Autor */
+#lyrics-container { font-size: 3.5rem; font-weight: bold; text-align: center; opacity: 0; transition: opacity 0.8s; }
+.pink { color: #ff85c1; }
+.gold { color: #ffd700; }
+.red { color: #ff0000; }
+.blue { color: #0000ff; }
+.green { color: #008000; }
+.orange { color: #FFA500; }
+.hidden { display: none; }
+#author-screen { text-align: center; font-size: 2rem; }
+
+/* Visualizador */
+#visualizer { position: absolute; bottom: 40px; display: flex; gap: 6px; height: 100px; align-items: flex-end; }
+.bar { width: 10px; background: #ff85c1; transition: height 0.1s ease; }
